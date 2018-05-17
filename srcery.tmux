@@ -1,4 +1,6 @@
 #!/bin/sh
+# srcery.tmux
+
 SRCERY_TMUX_COLOR_THEME_FILE=themes/srcery.conf
 SRCERY_TMUX_VERSION=0.0.1
 SRCERY_TMUX_STATUS_PATCHED_FILE=themes/srcery_patched.conf
