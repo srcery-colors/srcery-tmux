@@ -1,7 +1,9 @@
 # srcery-tmux
-Attempt at a srcery theme for tmux.
+Attempt at a srcery theme for tmux.  It has support for patched fonts for glyphs in the statusbar.
 
-## srcery Family
+Supports [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  Be sure to load this after you have loaded your theme either via `run-shell` or [TMP](https://github.com/tmux-plugins/tpm).
+
+## srcery family
 https://github.com/roosta/contrib-srcery/
 
 https://github.com/roosta/vim-srcery/
@@ -12,7 +14,7 @@ Add following to your plugin list
 set -g @plugin 'MindTooth/tmux-srcery'
 ```
 
-## Settings
+## Options
 
 ### Powerline Fonts
 Enable powerline glyps in statusline. _(default = 0)_
