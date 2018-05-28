@@ -2,17 +2,24 @@
 
 ![tmux-srcery screenshot](assets/screenshot.png)
 
-Attempt at a srcery theme for tmux.  It has support for patched fonts for glyphs in the statusbar.
+Attempt at a [srcery](https://github.com/roosta/vim-srcery/) theme for tmux.
 
-Supports [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  Be sure to load this after you have loaded your theme either via `run-shell` or [TMP](https://github.com/tmux-plugins/tpm).
 
-## srcery family
-https://github.com/roosta/contrib-srcery/
+### Features
+* Supports powerline glyphs via patched fonts.
+* [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  _(Be sure to load this after you have loaded your theme either via `run-shell` or [TMP](https://github.com/tmux-plugins/tpm).)_
 
-https://github.com/roosta/vim-srcery/
-
-## Install via [TMP](https://github.com/tmux-plugins/tpm)
-Add following to your plugin list
+## Installation
+### Manually (Using `git` & `run-shell`)
+```shell
+git clone https://github.com/MindTooth/tmux-srcery/ ~/.tmux/themes/tmux-srcery
+```
+Then add the folling to your `.tmux.conf` file:
+```tmux
+run -b ~/.tmux/themes/tmux-srcery/srcery.tmux
+```
+### [TMP](https://github.com/tmux-plugins/tpm)
+Add following to your plugin list:
 ```tmux
 set -g @plugin 'MindTooth/tmux-srcery'
 ```
