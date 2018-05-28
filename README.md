@@ -1,6 +1,7 @@
 # tmux-srcery
 
 ![tmux-srcery screenshot](assets/screenshot.png)
+
 Attempt at a srcery theme for tmux.  It has support for patched fonts for glyphs in the statusbar.
 
 Supports [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  Be sure to load this after you have loaded your theme either via `run-shell` or [TMP](https://github.com/tmux-plugins/tpm).
