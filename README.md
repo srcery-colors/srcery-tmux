@@ -5,8 +5,8 @@
 Attempt at a [srcery](https://github.com/roosta/vim-srcery/) theme for tmux.
 
 
-### Features
-* Supports powerline glyphs via patched fonts.
+## Features
+* Support for powerline glyphs via patched font.
 * [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  _(Be sure to load this after you have loaded your theme either via `run-shell` or [TMP](https://github.com/tmux-plugins/tpm).)_
 
 ## Installation
