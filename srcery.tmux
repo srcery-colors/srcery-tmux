@@ -31,7 +31,7 @@ __load() {
     tmux source-file "$CURRENT_DIR/$SRCERY_TMUX_COLOR_THEME_FILE"
 
     patched_font=$(tmux show-option -gqv \
-      "$SRCERY_TMUX_PATCHED_FONT_OPTION")
+        "$SRCERY_TMUX_PATCHED_FONT_OPTION")
 
     if [ "$patched_font" != "1" ]; then
         tmux source-file "$CURRENT_DIR/$SRCERY_TMUX_STATUS_NO_PATCHED_FILE"
@@ -43,4 +43,4 @@ __load() {
 __load
 __cleanup
 
-# vim: expandtab filetype=sh shiftwidth=4 tabstop=4
+# vim: filetype=sh
