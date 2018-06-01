@@ -31,3 +31,7 @@ Enable powerline glyps in statusline. _(default = 0)_
 ```tmux
 set -g @srcery_tmux_patched_font '1'
 ```
+
+## Inspiration
+* [Nord tmux](https://github.com/arcticicestudio/nord-tmux)
+* [tmux-themepack](https://github.com/jimeh/tmux-themepack)
