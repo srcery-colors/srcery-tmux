@@ -1,4 +1,4 @@
-ISC License
+ISC License - OpenBSD Edition
 
 Copyright (c) 2018 Birger J. Nordølum <contact+license@mindtooth.no>
 
@@ -22,6 +22,8 @@ Some bits are under the MIT License.  Look to the original source for
 the original tmux theme: https://github.com/arcticicestudio/nord-tmux/
 
 ------------------------------------------------------------------------
+
+MIT License (MIT)
 
 Copyright (c) 2017-present Arctic Ice Studio \
 development@arcticicestudio.com (http://arcticicestudio.com)
