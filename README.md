@@ -1,8 +1,8 @@
-# tmux-srcery
+# srcery-tmux
 
 ![tmux-srcery screenshot](assets/screenshot.png)
 
-Attempt at a [srcery](https://github.com/roosta/vim-srcery/) theme for tmux.
+tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
 
 
 ## Features
