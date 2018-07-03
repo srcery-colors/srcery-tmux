@@ -1,3 +1,4 @@
+#!/bin/sh
 ########################################################################
 # File name: srcery.tmux
 # Project: srcery color scheme for tmux
@@ -11,7 +12,6 @@
 
 
 SRCERY_TMUX_COLOR_THEME_FILE=themes/srcery.conf
-SRCERY_TMUX_VERSION=0.0.1
 SRCERY_TMUX_STATUS_PATCHED_FILE=themes/srcery_patched.conf
 SRCERY_TMUX_STATUS_NO_PATCHED_FILE=themes/srcery_no_patched.conf
 SRCERY_TMUX_PATCHED_FONT_OPTION="@srcery_tmux_patched_font"
