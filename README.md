@@ -12,7 +12,7 @@ tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
 ## Installation
 ### Manually (Using `git` & `run-shell`)
 ```shell
-git clone https://github.com/MindTooth/tmux-srcery/ ~/.tmux/themes/tmux-srcery
+git clone https://github.com/srcery-colors/tmux-srcery/ ~/.tmux/themes/tmux-srcery
 ```
 Then add the folling to your `.tmux.conf` file:
 ```tmux
@@ -21,7 +21,7 @@ run -b ~/.tmux/themes/tmux-srcery/srcery.tmux
 ### [TMP](https://github.com/tmux-plugins/tpm)
 Add following to your plugin list:
 ```tmux
-set -g @plugin 'MindTooth/tmux-srcery'
+set -g @plugin 'srcery-colors/tmux-srcery'
 ```
 
 ## Options
