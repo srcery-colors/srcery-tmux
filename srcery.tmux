@@ -3,7 +3,7 @@
 # File name: srcery.tmux
 # Project: srcery color scheme for tmux
 # Version: 0.0.2
-# Copyright: Birger J. Nordølum <contact+licens@mindtooth.no>
+# Copyright: Birger Johan Nordølum <me@mindtooth.no>
 #
 # This is the main file for the tmux color scheme.  This file loads the
 # theme files, and run throug the options by the user.
