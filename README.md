@@ -9,6 +9,9 @@ tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
 * Support for powerline glyphs via patched font.
 * [tmux-prefix-highlight](https://github.com/tmux-plugins/tmux-prefix-highlight).  _(Be sure to load this after you have loaded your theme either via `run-shell` or [TPM](https://github.com/tmux-plugins/tpm).)_
 
+## Requirements
+* tmux 2.2 or newer (for RGB/truecolor style support).
+
 ## Installation
 ### Manually (Using `git` & `run-shell`)
 ```shell
