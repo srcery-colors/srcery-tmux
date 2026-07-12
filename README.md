@@ -1,5 +1,7 @@
 # srcery-tmux
 
+**Version:** 3.0.0
+
 ![tmux-srcery screenshot](assets/screenshot.png)
 
 tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
@@ -11,6 +13,7 @@ tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
 
 ## Requirements
 * tmux 2.2 or newer (for RGB/truecolor style support).
+* tmux 3.0 or newer (for the multi-path `source-file` loader).
 
 ## Installation
 ### Manually (Using `git` & `run-shell`)

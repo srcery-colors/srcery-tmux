@@ -2,7 +2,7 @@
 ########################################################################
 # File name: srcery.tmux
 # Project: srcery color scheme for tmux
-# Version: 2.0.0
+# Version: 3.0.0
 # Copyright: Birger Johan Nordølum <me@mindtooth.no>
 #
 # This is the main file for the tmux color scheme.  This file loads the
@@ -13,13 +13,17 @@
 
 CURRENT_DIR="$(cd "$(dirname "${0}")" && pwd)"
 
-tmux source-file "$CURRENT_DIR/themes/palette.conf"
-tmux source-file "$CURRENT_DIR/themes/srcery.conf"
-
 if [ "$(tmux show-option -gqv "@srcery_tmux_patched_font")" = "1" ]; then
-	tmux source-file "$CURRENT_DIR/themes/srcery_patched.conf"
+	variant="srcery_patched.conf"
 else
-	tmux source-file "$CURRENT_DIR/themes/srcery_no_patched.conf"
+	variant="srcery_no_patched.conf"
 fi
+
+# Source everything in one client invocation so the theme applies
+# atomically, without an intermediate repaint of the default statusline.
+tmux source-file \
+	"$CURRENT_DIR/themes/palette.conf" \
+	"$CURRENT_DIR/themes/srcery.conf" \
+	"$CURRENT_DIR/themes/$variant"
 
 # vim: filetype=sh:formatoptions-=t:
